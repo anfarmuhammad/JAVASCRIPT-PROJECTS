@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    width: 400px;
+    height: 600px;
+    background-color: maroon;
+    border: 6px solid black;
+    gap: -20px;
+}
+#screen{
+    width: 80%;
+    height: 60px;
+    margin-left: 36px;
+    margin-top: 30px;
+    pointer-events: none;
+    font-size: -20px;
+}
+.btn{
+    width: 58px;
+    height: 55px;
+    margin-left: 30px;
+    margin-top: 45px;
+    background-color: rgb(37, 37, 9);
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+@media (max-width: 500px) {
+    .cal {
+        width: 95%;
+        gap: 30px;
+        
+        border: 4px solid black;
+    }
+
+    #screen {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 45px;
+        height: 45px;
+        font-size: px;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+} 
